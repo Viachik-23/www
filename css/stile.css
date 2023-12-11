@@ -1,0 +1,100 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html{height: 100%}
+
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  color: #333;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1em;
+  line-height: 135%;
+  float: left;
+}
+
+a{
+  color: #9400d3;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #e0b0ff;
+  text-decoration: underline;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+  color: #9400d3;
+}
+
+a, a:hover {
+  -webkit-transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -o-transition: all.6s ease;
+  -ms-transition: all.6s ease;
+  transition: all.6s ease;
+}
+
+.clear{
+  clear: both;
+}
+
+/* Стили для шапки */
+
+header{
+  width: 100%;
+  float: left;
+  padding: 1%;
+  border-color: #fafafa;
+  border-bottom: 2px solid #eddefa;
+  background-color: #f8f4ff;
+}
+
+header #logo {
+  width: 40%;
+  float: left;
+}
+
+header #logo a {
+  color: #120a8f;
+  font-size: 2em;
+  font-family: Times New Roman, sans-serif;
+}
+
+header #logo span {
+  color: #9400d3;
+}
+
+header #menuHead {
+  width: 24%;
+  float: left;
+}
+
+header #menuHead div {
+  float: left;
+  padding: 5px;
+  background-color: #e0b0ff;
+  border-radius: 10px;
+  color: #fff;
+}
+
+header #menuHead div:hover {
+  background-color: #eddefa;
+}
+
+header #regAuth {
+  width: 30%;
+  float: left;
+  text-align: right;
+  font-size: 1.2em;
+  color: #9400d3;
+}
