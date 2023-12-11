@@ -220,6 +220,14 @@ header #regAuth {
           resize: none;
         }
 
+#leftCol #messageShow {
+float: left;
+font-size: 1.2em;
+color: red;
+width: 100%;
+text-align: center;
+}
+
   #rightCol {
     width: 20%;
     float: right;
