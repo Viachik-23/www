@@ -178,6 +178,16 @@ header #regAuth {
   margin-left: 5%;
   }
   
+/* Стили для странички о нас */
+
+#leftCol #about_us {
+    width: 80%;
+    margin-left: 10%;
+    border: 1px solid #e0b0ff;
+    background-color: #eddefa;
+    padding: 2%;
+    }    
+
   #rightCol {
     width: 20%;
     float: right;
@@ -189,8 +199,8 @@ header #regAuth {
     height: auto;
     float: right;
     margin-bottom: 20px;
-    border: 2px solid silver;
     box-sizing: border-box;
+    border: 2px solid #eddefa;
   }
   
 /* Cтили для Footer*/
