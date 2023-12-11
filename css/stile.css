@@ -188,6 +188,38 @@ header #regAuth {
     padding: 2%;
     }    
 
+    #leftCol input{
+        width: 40%;
+        margin-left: 30%;
+        float: left;
+        border-radius: 10px;
+        border: 1px solid #eddefa;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 1.1em;
+        }
+        
+        #leftCol input:focus, #leftCol textarea:focus{
+        border: 2px solid #120a8f;
+        }
+        
+        #done:hover{
+        border: 2px solid #9400d3;
+        }
+        
+        #leftCol textarea{
+          width: 50%;
+          height: 250px;
+          margin-left: 25%;
+          float: left;
+          border-radius: 10px;
+          border: 1px solid #eddefa;
+          padding: 5px;
+          margin-bottom: 10px;
+          font-size: 1.1em;
+          resize: none;
+        }
+
   #rightCol {
     width: 20%;
     float: right;
