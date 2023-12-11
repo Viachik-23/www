@@ -48,6 +48,12 @@ a, a:hover {
   clear: both;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+  }  
+
 /* Стили для шапки */
 
 header{
@@ -57,6 +63,7 @@ header{
   border-color: #fafafa;
   border-bottom: 2px solid #eddefa;
   background-color: #f8f4ff;
+  margin-bottom: 20px;
 }
 
 header #logo {
@@ -99,6 +106,93 @@ header #regAuth {
   color: #9400d3;
 }
 
+/* Стили для всего документа*/
+
+#wrapper {
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+    margin-bottom: 1%;
+    margin-top: 1%;
+  }
+  
+  #leftCol {
+    width: 70%;
+    float: left;
+    margin-right: 10%;
+  }
+  
+  #leftCol #bigArticle {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #f8f4ff;
+    padding: 1%;
+    float: left;
+    border: 1px solid #eddefa;
+  }
+  
+  #leftCol #bigArticle img, #leftCol .article img{
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+  }
+  
+  #leftCol #bigArticle h2, #leftCol .article h2{
+  font-weight: normal;
+  font-size: 1.7em;
+  color: #120a8f;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #leftCol #bigArticle div.more, #leftCol .article div.more{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #e0b0ff;
+  width: auto;
+  width: 10%;
+  text-align: center;
+  margin-top: 10px;
+  color: #000;
+  }
+  
+  #leftCol .article div.more{
+  width: 20%;
+  }
+  
+  #leftCol #bigArticle div.more:hover, #leftCol .article div.more:hover{
+    background-color: #eddefa;
+    color: #000;
+  }
+  
+  #leftCol .article{
+  width: 40%;
+  margin-left: 5%;
+  background-color: #f8f4ff;
+  padding: 1%;
+  float: left;
+  border: 1px solid #eddefa;
+  }
+  
+  #leftCol #bigArticle p, #leftCol .article p{
+  width: 90%;
+  margin-left: 5%;
+  }
+  
+  #rightCol {
+    width: 20%;
+    float: right;
+    height: auto;
+  }
+  
+  .banner{
+    width: 100%;
+    height: auto;
+    float: right;
+    margin-bottom: 20px;
+    border: 2px solid silver;
+    box-sizing: border-box;
+  }
+  
 /* Cтили для Footer*/
 
 footer {
