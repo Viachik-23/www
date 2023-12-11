@@ -1,7 +1,7 @@
 <header>
 
 <div id="logo">
-  <a href="/" title="Перейти на главную"><span>Н</span>овости</a>
+  <a href="index.php" title="Перейти на главную"><span>Н</span>овости</a>
 </div>
 
 <div id="menuHead">

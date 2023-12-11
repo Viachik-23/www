@@ -11,12 +11,17 @@
         $mysqli -> close ();
     }
 
-    function getNews($limit){
+    function getNews($limit, $id){
         global $mysqli;
         connectDB();
-        $result = $mysqli->query("SELECT * FROM `news` ORDER BY `id` DESC LIMIT $limit");
-        closeDB();
-        return resultToArray($result);
+        if($id)
+        $where = "WHERE `id` =".$id;
+    $result = $mysqli->query("SELECT * FROM `news` $where ORDER BY `id` DESC LIMIT $limit");        
+    closeDB();
+    if(!$id)
+    return resultToArray($result);
+else
+    return $result->fetch_assoc();
     }
 
     function resultToArray($result) {
